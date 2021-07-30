@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content from Display component matches snapshot 1`] = `
+<div>
+  <header
+    class="mdc-top-app-bar"
+  >
+    <div
+      class="mdc-top-app-bar__row"
+    >
+      <section
+        class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start"
+      >
+        <span
+          class="mdc-top-app-bar__title"
+        >
+          My Important Contacts
+        </span>
+      </section>
+    </div>
+  </header>
+  <div
+    class="w40"
+  >
+    <div
+      class="mdc-card mdc-card--outlined space_card"
+    >
+      <div
+        class="w100 sticky"
+      >
+        <div
+          class="mdc-text-field w100 mdc-text-field--with-trailing-icon"
+        >
+          <input
+            class="mdc-text-field__input"
+            id=""
+            value=""
+          />
+          <label
+            class="mdc-floating-label"
+            for=""
+          >
+            Search User
+          </label>
+          <div
+            class="mdc-line-ripple"
+          />
+          <i
+            class="material-icons mdc-text-field__icon"
+            tabindex="-1"
+          >
+            search
+          </i>
+        </div>
+        <div
+          class="mdc-text-field-helper-line"
+        >
+          <p
+            aria-hidden="false"
+            class="mdc-text-field-helper-text"
+          >
+            ie. Max, Stainer, Samantha
+          </p>
+        </div>
+      </div>
+      <div
+        class="mdc-card__primary-action  cardContent mdc-elevation--z4"
+      >
+        <div
+          class="mdc-card__media img mdc-card__media--square"
+          style="background-image: url(http://localhost:4000/mock.data.com/test1.png);"
+        />
+        <div
+          class="content_size info_card"
+        >
+          <div>
+            <h6
+              class="mdc-typography mdc-typography--headline6"
+            >
+              test1 data1
+            </h6>
+            <h6
+              class="mdc-typography mdc-typography--subtitle1"
+            >
+              tester
+            </h6>
+          </div>
+          <div
+            class="mdc-card__action-icons"
+          >
+            <i
+              class="material-icons mdc-card__action mdc-card__action--icon"
+            >
+              expand_more
+            </i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mdc-card__primary-action  cardContent mdc-elevation--z4"
+      >
+        <div
+          class="mdc-card__media img mdc-card__media--square"
+          style="background-image: url(http://localhost:4000/mock.data.com/test2.png);"
+        />
+        <div
+          class="content_size info_card"
+        >
+          <div>
+            <h6
+              class="mdc-typography mdc-typography--headline6"
+            >
+              test2 data2
+            </h6>
+            <h6
+              class="mdc-typography mdc-typography--subtitle1"
+            >
+              testeador
+            </h6>
+          </div>
+          <div
+            class="mdc-card__action-icons"
+          >
+            <i
+              class="material-icons mdc-card__action mdc-card__action--icon"
+            >
+              expand_more
+            </i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mdc-card__primary-action  cardContent mdc-elevation--z4"
+      >
+        <div
+          class="mdc-card__media img mdc-card__media--square"
+          style="background-image: url(http://localhost:4000/mock.data.com/test3.png);"
+        />
+        <div
+          class="content_size info_card"
+        >
+          <div>
+            <h6
+              class="mdc-typography mdc-typography--headline6"
+            >
+              test3 data3
+            </h6>
+            <h6
+              class="mdc-typography mdc-typography--subtitle1"
+            >
+              testeando
+            </h6>
+          </div>
+          <div
+            class="mdc-card__action-icons"
+          >
+            <i
+              class="material-icons mdc-card__action mdc-card__action--icon"
+            >
+              expand_more
+            </i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
