@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Content from SearchUser component matches snapshot 1`] = `
+<div>
+  <div
+    class="w100 sticky"
+  >
+    <div
+      class="mdc-text-field w100 mdc-text-field--with-trailing-icon"
+    >
+      <input
+        class="mdc-text-field__input"
+        id=""
+        value="david"
+      />
+      <label
+        class="mdc-floating-label mdc-floating-label--float-above"
+        for=""
+      >
+        Search User
+      </label>
+      <div
+        class="mdc-line-ripple"
+      />
+      <i
+        class="material-icons mdc-text-field__icon"
+        tabindex="-1"
+      >
+        search
+      </i>
+    </div>
+    <div
+      class="mdc-text-field-helper-line"
+    >
+      <p
+        aria-hidden="false"
+        class="mdc-text-field-helper-text"
+      >
+        ie. Max, Stainer, Samantha
+      </p>
+    </div>
+  </div>
+</div>
+`;
