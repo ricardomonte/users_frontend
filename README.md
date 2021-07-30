@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Users_frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Users_frontend is a simple React app that fetch data from a Rails API and display this data. It was built for a technical test.**
 
-## Available Scripts
+![website screenshots](Screenshot_users.png)
 
-In the project directory, you can run:
+## :hammer: Built with:
 
-### `npm start`
+- Html
+- JavaScript
+- React
+- Material Design
+- Jest
+- React Testing Library
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :construction_worker: Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To get a local copy up and running follow these simple steps:
 
-### `npm test`
+- Open the terminal where you want to clone this project and paste.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+    git clone https://github.com/ricardomonte/users_frontend.git
+```
 
-### `npm run build`
+- Access the folder cloned.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+    cd users_frontend
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Install dependencies.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+    npm install
+```
 
-### `npm run eject`
+- Lunch the App.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+    npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :heavy_check_mark: Test
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+For testing:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Open in terminal the folder just cloned.
+- If you run 'npm install', continue reading. If not follow the instructions in the Getting Started section
+- To run the test, in the terminal run.
 
-## Learn More
+```
+    npm run test
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :bust_in_silhouette: Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@ricardomonte](https://github.com/ricardomonte)
+- Twitter: [@ramnkco](https://twitter.com/ramnkco)
+- LinkedIn: [Ricardo Montenegro](https://www.linkedin.com/in/ricantomontenegro/)
 
-### Code Splitting
+## :raised_hand: :raised_hand: Contributions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contributions, issues and feature requests are welcome!
 
-### Analyzing the Bundle Size
+Feel free to check the [issues here](https://github.com/ricardomonte/users_frontend/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a :star: if you like this project!.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## :memo: License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](LICENSE) licensed.
