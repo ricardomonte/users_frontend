@@ -1,0 +1,84 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.w40 {
+  width: 40%;
+  margin-top: 6em;
+  overflow-y: scroll;
+}
+
+.content_size {
+  width: 50%;
+  display: flex;
+}
+
+.space_card {
+  row-gap: 2em;
+  padding: 2em;
+}
+
+.cardContent {
+  align-items: center;
+  column-gap: 0.5em;
+  padding: 1em 0 1em 1em;
+  cursor: default !important;
+}
+
+.img_card {
+  width: 20%;
+  height: 20%;
+  border: 0.5px solid #e2e2e2;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.img {
+  width: 150px;
+  height: auto;
+}
+.info_card {
+  justify-content: space-between;
+}
+
+.expandable_content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.email_phone {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  column-gap: 0.5em;
+}
+
+@media only screen and (max-width: 1024px) {
+  .w40 {
+    width: 70%;
+  }
+  
+  .space_card {
+    padding: 2em 0.2em 2em 0.2em;
+  }
+  
+  .content_size {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .w40 {
+    width: 100%;
+  }
+  
+  .space_card {
+    padding: 2em 0.2em 2em 0.2em;
+  }
+  
+  .content_size {
+    width: 100%;
+  }
+}
+
